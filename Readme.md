@@ -56,8 +56,9 @@ https://colab.research.google.com/drive/13gFZfM78CaWpXsDmkS0Pm8m1hb6c9pX0#scroll
   
   <img width="452" height="347" alt="image" src="https://github.com/user-attachments/assets/40a67b7b-c560-4004-abee-7e4636306eb2" />
 
-* Conclusão: ![MuaKissGIF (2)](https://github.com/user-attachments/assets/c4e9755d-84ee-4ac0-bba1-d7bda1ece48a)
-![MuaKissGIF](https://github.com/user-attachments/assets/41a8386c-7fc1-41df-ba33-4faba2f82572)
+* #Conclusão:
+* ![MuaKissGIF (2)](https://github.com/user-attachments/assets/c4e9755d-84ee-4ac0-bba1-d7bda1ece48a)
+
 
 Esse é minha primeira análise exploratória, confesso que me perdir não no uso das funções mais como aplicar efetivamente, porém me deu vários insghts em uma situação de uso no excel que possuo vasto dominio e isso me levou a pensar como algo que parece tão simples pode ficar complexo. Foi um desafio que pareceu fácil, mais gerar insights nem sempre é algo simples, na verdade é uma responsabilidade grande. Nesta jornada é apenas o começo e estou buscando cada vez mais melhor mais e mais, trazer minha experiência e conhecimento em outras ferramentas para uso com o Python e as proximas ferramentas que virá durante o programa.
 
