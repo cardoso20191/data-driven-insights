@@ -1,29 +1,30 @@
-### Relatório Mini Projeto**
-📘 Mini Projeto: Data-Driven Insights (Módulo 01_Python)
+### Relatório - Mini Projeto (Módulo 01_Python) 🤺
+📘 Data-Driven Insights 
 
 🧑‍💻 Projeto
-Projeto prático de exploração e visualização de dados com Python no Google Colab, utilizando um data set extraído do site [https://www.kaggle.com/datasets/kyanyoga/sample-sales-data?resource=download](https://archive.ics.uci.edu/dataset/320/student+performance - arquivo (student-mat) no formato .csv.
+Projeto prático de exploração e visualização de dados com Python com Google Colab, utilizando um data set em .csv
 
 🎯 Objetivo
-Práticando Análise exploratoria: transformação e visualização de dados utilizando Python e suas bibliotecas (pandas, numpy e matplotlib), gerando insights descritivos a partir da análise realizada.
+Práticar análise exploratoria, transformação e visualização de dados utilizando Python e suas bibliotecas (pandas, numpy e matplotlib) e suas funções com proposito de gerar insights descritivos.
 
-✅ Roteiro:
-Ferramentas: Google Colab e Github
+✅ Ferramentas: Google Colab e Github
 
-📊 Bases de dados sugeridas
+📊 Bases de dados utilizada
 
-https://colab.research.google.com/drive/13gFZfM78CaWpXsDmkS0Pm8m1hb6c9pX0#scrollTo=knRO-mC8I-uo
+* Fonte: [https://colab.research.google.com/drive/13gFZfM78CaWpXsDmkS0Pm8m1hb6c9pX0#scrollTo=knRO-mC8I-uo](https://archive.ics.uci.edu/dataset/320/student+performance )
 
-🧐Roteiro Guiado para análise gerada:
+🧐Roteiro Guiado:
 
 1. Instalando as Bibliotecas necessárias para uso na análise.
-2. Importando as bibliotecas bases para o projeto
-3. Carregamento da Base a partir do arquivo disponibilizado no ambiente do Colab
-4. Conhecendo o data set (base) da análise.
-   * Com o uso do comando head(), identificamos que a base se tratava de dados de alunos, porém contiam dados mais pessoais, como relacionamento, trabalho, acesso a internet entre outros.
+2. Importando as bibliotecas para o projeto
+3. Criando um dataframe (df) no Google Colab.
+4. Explorando o data set (base).
+   * Com o uso do comando head(), identificamos que a base está no idioma inglês, com isso optei por explorar dados básicos como: failures (reprovações), sex (sexo), absences (ausências), age (idade), G1, G2 (notas do primeiro e segundo período) e Pstatus (Status civil dos pais), a escolha dos campos foi para facilitar a prática da exploração de dados e realização da atividade, deixando o menos complexa possível.
+     
    <img width="625" height="232" alt="image" src="https://github.com/user-attachments/assets/6df5575a-4a98-498b-81c3-0f98a688a61d" />
-   * A estrutura da base contem um total de 395 linhas por 35 colunas.
-   * Identificamos também que dados como nota, foi considerado sempre como do tipo int64, sendo que um aluno não teria notas com meio ponto exemplo: 5.5.
+
+    * A estrutura do data set escolhido contem um total de 395 linhas por 33 colunas.
+    * A coluna G1 e G2 do tipo int64 considera notas de 0 a 20.
 
    4.1 Listas, Dicionarios e Tuplas
      * Criado uma lista com um for para visualizar as 10 primeiras linhas para buscar as reprovações deste grupo com isso identificamos apenas 3, podendo ser considerado baixo.
@@ -52,6 +53,9 @@ https://colab.research.google.com/drive/13gFZfM78CaWpXsDmkS0Pm8m1hb6c9pX0#scroll
     * Podemos notar também que o publico que registra o maior número de ausências é o feminino.
       <img width="462" height="356" alt="image" src="https://github.com/user-attachments/assets/57567764-3a55-45f9-8524-500e7e3d2e5f" />
 
+   * alé disso as reprovações anteriores não tem influência com quem não frequentou creche, o percentual maior aponta para quem frequentou, ou seja, foi incluido antes, mesmo assim o registro aponta o maior indice de reprovações para este grupo.
+     <img width="592" height="456" alt="image" src="https://github.com/user-attachments/assets/5773d644-17b0-488f-b892-350312a4fba5" />
+
    * Por fiim podemos reafimar as informções do primeiro gráfico, onde nota-se que as auxencias inicia na pré adolescencia e vai até o inicio da adolescencia, onde identifica-se uma redução o que pode indicar maior responsabilidade, fase onde o jovem está de olho em seu futuro o que vai fazer, faculdade a cursar entre outros fatores.
   
   <img width="452" height="347" alt="image" src="https://github.com/user-attachments/assets/40a67b7b-c560-4004-abee-7e4636306eb2" />
@@ -59,8 +63,7 @@ https://colab.research.google.com/drive/13gFZfM78CaWpXsDmkS0Pm8m1hb6c9pX0#scroll
 * #Conclusão:
 * ![MuaKissGIF (2)](https://github.com/user-attachments/assets/c4e9755d-84ee-4ac0-bba1-d7bda1ece48a)
 
-
-Esse é minha primeira análise exploratória, confesso que me perdir não no uso das funções mais como aplicar efetivamente, porém me deu vários insghts em uma situação de uso no excel que possuo vasto dominio e isso me levou a pensar como algo que parece tão simples pode ficar complexo. Foi um desafio que pareceu fácil, mais gerar insights nem sempre é algo simples, na verdade é uma responsabilidade grande. Nesta jornada é apenas o começo e estou buscando cada vez mais melhor mais e mais, trazer minha experiência e conhecimento em outras ferramentas para uso com o Python e as proximas ferramentas que virá durante o programa.
+Com esta atividade, pude praticar e entender conceitos fundamentais, realizei a atividade umas 5 vezes até conseguir compreender que antes precisava de fato ler, enteder, enteder e entender a base bem como o que ela tras de informações. O resultado aqui não é o melhor, poderia ainda trazer muito mais insights com esta base e motivos das reprovações. Contudo, de uma forma resumida, pude entender que as repovações anteriores não tem forte influencia sobre pais casados e separado, aponta muito mais para uma fase na idade dos 15 aos 17 anos e para o perfil feminino, a base vai além dos dados analisados, a atividade encerro aqui, porém meu trabalho e olhar a fundo e melhorar este projeto ficará como liçãod e casa para que possa melhorar e praticar utilizando puthon.
 
 Obrigado!!!
 
