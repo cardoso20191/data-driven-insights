@@ -1,8 +1,7 @@
 ### Relatório - Mini Projeto (Módulo 01_Python) 🤺
 📘 Data-Driven Insights 
 
-🧑‍💻 Projeto
-Projeto prático de exploração e visualização de dados com Python com Google Colab, utilizando um data set em .csv
+🧑‍💻 Projeto prático de exploração e visualização de dados com Python com Google Colab, utilizando um data set em .csv
 
 🎯 Objetivo
 Práticar análise exploratoria, transformação e visualização de dados utilizando Python e suas bibliotecas (pandas, numpy e matplotlib) e suas funções com proposito de gerar insights descritivos.
